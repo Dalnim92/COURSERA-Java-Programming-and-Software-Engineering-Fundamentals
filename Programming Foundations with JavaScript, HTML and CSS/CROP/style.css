@@ -1,0 +1,12 @@
+h2{
+    text-align: center;
+}
+body{
+    text-align: center;
+    background-color: bisque;
+}
+canvas{
+    width: auto;
+    height: auto;
+    border: 2px solid #c3c3;
+}

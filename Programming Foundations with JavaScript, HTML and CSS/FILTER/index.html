@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <h2>FILTER FUN</h2>
+        <link href="style.css" rel="stylesheet">
+        <script src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+    </head>
+    <body>
+        <p><canvas id="can1"></canvas></p>
+        <p><label for="fname" id="text"></label></p>
+        <p>Load Image</p>
+        <p><input type="file" multiple="false" accept="image/*" id="finput" value="Choose File" onchange="upload()"/></p>
+        <p>Choose Filter</p>
+        <p><input type="button" id="gray" value="grayscale" onclick="grayScale()" /> <input type="button" value="red" id="red" onclick="dored()" />
+            <input type="button" id="square" value="square" onclick="makeSquare()" /> <input type="button" id="bow" value="Rainbow" onclick="makeRainbow()" /></p>
+        <p><input type="button" id="reset" value="reset image" onclick="ResetImage()" /><input type="button" id="Clear" value="clear image" onclick="ClearImage()" /></p>
+        <script src="app.js"></script>
+    </body>
+</html>

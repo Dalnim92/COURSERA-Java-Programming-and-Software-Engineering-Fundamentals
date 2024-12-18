@@ -1,0 +1,12 @@
+h2{
+    text-align: center;
+}
+body{
+    text-align: center;
+    background-color: azure;
+}
+canvas{
+    width: 300px;
+    height: 300px;
+    border: 2px solid #c3c3;
+}

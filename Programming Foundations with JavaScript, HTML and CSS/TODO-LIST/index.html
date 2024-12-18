@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <h1 id="myHeader">TO DO LIST</h1>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <input type="text" id="input" placeholder="enter task..." />
+        <button id="addButton" onclick="addTask()">Add</button>
+        <ul id="tasks">
+            <li>
+                <input type="button" class="done" onclick="markDone(this.parentNode)" value="&#x2713;"/>
+                <input type="button" class="remove" onclick="remove(this.parentNode)" value="&#x2715;" />
+                <input type="button" class="important" onclick="important(this.parentNode)" value="&#33;" />
+            </li>
+        </ul>
+        <script src="app.js"></script>
+        <div id="divabout">
+            <p id="author" class="yellowbackground"></p>
+            <input type="button" value="About" onclick="doAbout()">
+            <input type="button" value="Clear" onclick="clearAbout()">
+        </div>
+    </body>
+</html>

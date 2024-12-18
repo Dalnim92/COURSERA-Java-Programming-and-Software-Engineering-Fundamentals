@@ -1,0 +1,17 @@
+h2{
+    text-align: center;
+}
+body{
+    background-color: rgb(255, 235, 205);
+    text-align: center;
+}
+canvas{
+    width: 200px;
+    height: 200px;
+    border: 2px solid #c3c3c3;
+}
+.can3{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #c3c3c3;
+}
