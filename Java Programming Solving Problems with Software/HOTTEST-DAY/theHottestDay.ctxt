@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=theHottestDay
+comment0.text=\r\n\ Write\ a\ description\ of\ theHottestDay\ here.\r\n\ \r\n\ @author\ (Ayten)\ \r\n\ @version\ (21/12/2024)\r\n
+comment1.params=
+comment1.target=void\ testhottestDay()
+comment2.params=parser
+comment2.target=org.apache.commons.csv.CSVRecord\ hottestDay(org.apache.commons.csv.CSVParser)
+comment3.params=
+comment3.target=void\ testhottestInManyDays()
+comment4.params=
+comment4.target=org.apache.commons.csv.CSVRecord\ hottestInManyDays()
+comment5.params=currentRow\ largestSoFar
+comment5.target=org.apache.commons.csv.CSVRecord\ getLargestOfTwo(org.apache.commons.csv.CSVRecord,\ org.apache.commons.csv.CSVRecord)
+numComments=6
