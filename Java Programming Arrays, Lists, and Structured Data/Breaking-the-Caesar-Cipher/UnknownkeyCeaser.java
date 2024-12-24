@@ -85,10 +85,10 @@ public class UnknownkeyCeaser{
         System.out.println(decrypted);
     }
     public void testencrypttwo(){
-        FileResource fr = new FileResource();
-        String message = fr.asString();
-        for(int key1 = 1; key1 < 26; key1++){
-            for(int key2 = 1; key2 < 16; key2++){
+        //FileResource fr = new FileResource();
+        String message = "Uybi Gfqgykii Jgziegv Uigeixdiex Smiizzin";
+        for(int key1 = 16; key1 < 18; key1++){
+            for(int key2 = 4; key2 < 6; key2++){
                 String encrypted = encryptTwoKeys(message, 26-key1, 26-key2);
                 System.out.println(encrypted);
             }
