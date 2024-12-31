@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=LogAnalyzer
+comment0.text=\r\n\ Write\ a\ description\ of\ LogAnalyzer\ here.\r\n\ \r\n\ @author\ (Ayten)\ \r\n\ @version\ (30/12/2024)\r\n
+comment1.params=
+comment1.target=LogAnalyzer()
+comment2.params=fileName
+comment2.target=void\ readFile(java.lang.String)
+comment3.params=
+comment3.target=void\ printAll()
+comment4.params=
+comment4.target=int\ countUniqueIps()
+comment5.params=num
+comment5.target=void\ printAllHigherThanNum(int)
+comment6.params=someday
+comment6.target=java.util.ArrayList\ uniqueIPVisitsonDay(java.lang.String)
+comment7.params=low\ high
+comment7.target=int\ countUniqueIPsInRange(int,\ int)
+numComments=8
